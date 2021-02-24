@@ -4,7 +4,15 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+h1{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #0086E3;
+    box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.52);
+}
 .form_style{
     padding: 20px;
     border-radius: 20px;
@@ -13,7 +21,14 @@
     height: 600px;
     margin: auto;
 }
-
+.text_input{
+    border-radius: 4px;
+    padding: 4px;
+    border: solid black 1px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.25),
+                0 2px 2px rgba(0,0,0,0.20),
+                0 4px 4px rgba(0,0,0,0.15);
+}
 .btn_style{
     font-family: 'Open Sans', sans-serif;
     padding: 5px;
