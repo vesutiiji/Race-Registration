@@ -11,18 +11,20 @@
 <div class="form_style">
 
     <h1>Race Registration</h1>
-    <form action="">
+    <form class="Fmain">
 
-        <div class="info">
+        <div class="FN">
             <label for="first">First Name</label>
             <input type="text" id="first" name="firstname" required>
+        </div>
+        <div class="LN">
             <label for="last">Last Name</label>
             <input type="text" id="last" name="lastname" required>
         </div>
         
         <p>Select a Race:</p>
-
         <main class="racetype">
+
             <div>
                 <input type="radio" name="race" id="funrun" value="fr5k">
                 <label for="funrun">Fun Run 5k</label>
@@ -43,7 +45,9 @@
         <div class="email">
             <label for="email">Email</label>
             <input type="email" name="email" id="email" required>
-            <label for="password"></label>
+        </div>
+        <div class="PW">
+            <label for="password">Password</label>
             <input type="password" name="password" id="password" required>
         </div>
 
