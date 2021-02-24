@@ -19,3 +19,37 @@
     padding: 5px;
     background-color: #f5f5f5;
 }
+
+/*.info{*/
+/*    margin: 3em;*/
+
+/*}*/
+
+/*.racetype{*/
+/*    margin-left: 7em;*/
+/*    margin-bottom: 1em;*/
+/*}*/
+
+/*p{*/
+/*    margin-left: 7em;*/
+/*    margin-bottom: 1em;*/
+/*}*/
+
+/*.division{*/
+/*    margin-left: 5em;*/
+/*    margin-bottom: 1em;*/
+/*}*/
+
+.Fmain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.FN .LN{
+    display: block;
+}
+
+.email .PW{
+    display: block;
+}
